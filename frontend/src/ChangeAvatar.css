@@ -1,0 +1,52 @@
+.avatar-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 tiles per row */
+  gap: 16px;
+  justify-items: center;
+  margin: 20px 0;
+}
+
+.avatar-tile {
+  border: 4px solid transparent;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f0f0f0; /* light tile background */
+  cursor: pointer;
+  width: 150px;
+  height: 180px;
+  transition: border 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.avatar-tile.selected {
+  border: 4px solid #11b054; /* highlight border */
+}
+
+.avatar-img {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.avatar-tile img {
+  width: 100%;
+  height: 130px;
+  object-fit: contain; /* ensures full image fits */
+}
+
+.avatar-tile p {
+  color: #000; /* black label */
+  font-size: 14px;
+  margin: 8px 0 0;
+}
+
+.scan-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}

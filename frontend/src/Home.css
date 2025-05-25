@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+/* Ensure the body and root take up full height */
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+/* Container for the entire page */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100vh; /* Take up full viewport height */
+  background: linear-gradient(to right, #8e44ad, #e74c3c, #f39c12);
+}
+
+/* Welcome text styling */
+.welcome-text {
+  font-size: 7.3rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+  /* animation: bounce 1s infinite; */
+}
+
+.lumi{
+  color: #2a004ee4;
+}
+
+.intro {
+  font-size: 1.4rem;
+  font-family: "Merienda", cursive;
+  font-weight:500;
+  color: #ffeedd;
+  padding-left: 6cm;
+  padding-right: 6cm;
+  text-align: center;
+  margin-top: -1%;
+  margin-bottom: 5%;
+}
+
+.highlight {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.941); /* You can change to any color */
+  background-color: #e6f0ff4b; /* Optional: subtle background */
+  padding: 2px;
+  border-radius: 4px;
+  margin-left: 1%;
+  margin-right: 0%;
+}
+
+
+/* Get Started button styling */
+.get-started-button {
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  color: #2a004ee4;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  /* animation: bounce 1s infinite; */
+}
+
+/* Button hover effect */
+.get-started-button:hover {
+  background-color: #2a004ee4;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+/* Bounce animation */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.home-container {
+  transition: opacity 1s ease, filter 1s ease;
+  opacity: 1;
+  filter: blur(0);
+}
+
+.fade-blur-out {
+  opacity: 0;
+  filter: blur(100px);
+}

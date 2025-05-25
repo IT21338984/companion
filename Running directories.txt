@@ -1,0 +1,2 @@
+cd frontend\public\virtualAssistant\frontend\src - yarn dev
+cd frontend\src - npm run dev

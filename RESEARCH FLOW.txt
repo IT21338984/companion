@@ -1,0 +1,14 @@
+get started _/
+->
+scan the user by web cam _/
+->
+autofill the fields _/
+->
+get the user confirmation _/
+->
+*
+load the relevant 3d model _/
+->
+Embed with AR 
+->
+Integration
