@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🤖 Virtual Avatar Assistant System
 
 This is a research-based virtual assistant web application built with **React (Vite + TypeScript)** and **FastAPI**, designed to generate culturally adaptive, role-appropriate 3D human avatars based on real-time webcam input.
@@ -47,28 +47,11 @@ Change Models Accordingly
 
 **In root directory:**
 ```bash
-=======
-**Flow of the project**
-get started _/
-->
-scan the user by web cam _/
-->
-autofill the fields _/
-->
-get the user confirmation _/
-->
-*
-load the relevant 3d model _/
-->
-change the models accordingly
 
-_In root directory:_
->>>>>>> 193395b0fab6cf2624f079b424042816a57ad45e
 python -m venv .venv
 .venv/Scripts/activate
 pip install -r requirements.txt
 python app.py
-<<<<<<< HEAD
 ```
 
 ### Frontend Setup
@@ -76,13 +59,13 @@ python app.py
 **Start the development server with the following directories respectively:**
 
 ```bash
-# Option 1 (with yarn)
+# Step 1 (with yarn)
 cd frontend\public\virtualAssistant\frontend\src
 yarn dev
 ```
 
 ```bash
-# Option 2 (with npm)
+# Step 2 (with npm)
 cd frontend\src
 npm run dev
 ```
@@ -108,11 +91,6 @@ This is an academic research project. If you're interested in contributing or co
 
 ## 📧 Contact
 
-email: info.aialfa@gmail.com
-mobile: +94 766540946
-=======
-
-_Start the development server with following directories respectively:_
-cd frontend\public\virtualAssistant\frontend\src -> yarn dev
-cd frontend\src -> npm run dev
->>>>>>> 193395b0fab6cf2624f079b424042816a57ad45e
+- **email:** info.aialfa@gmail.com
+- **mobile:** +94 766540946
+  
