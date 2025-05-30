@@ -45,9 +45,8 @@ export default function Scan() {
     const formData = new FormData();
     formData.append("image", dataURItoBlob(imageSrc));
     
-    //http://172.20.10.3:5000/upload-image
     try {
-      const response = await axios.post("http://192.168.8.192:5000/upload-image", formData, {
+      const response = await axios.post("http://172.28.9.19:5000/upload-image", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
 
