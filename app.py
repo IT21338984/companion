@@ -32,7 +32,7 @@ except Exception as e:
     print(f"Error loading models: {str(e)}")
 
 age = ['adult', 'child']
-gender = ['female', 'male']
+gender = ['male', 'male']
 # fashion = ['african', 'asian', 'middleEast', 'western']
 fashion = ['african', 'southAsian', 'eastAsian', 'middleEast', 'western']
 
