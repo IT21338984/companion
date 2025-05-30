@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 
 # 🤖 Virtual Avatar Assistant System
 
@@ -96,4 +94,3 @@ This is an academic research project. If you're interested in contributing or co
 - **email:** info.aialfa@gmail.com
 - **mobile:** +94 766540946
   
->>>>>>> 2a61057c1df7e675722cbae37ee69b9b046418eb
