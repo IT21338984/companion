@@ -1,7 +1,7 @@
 
 # 🤖 Virtual Avatar Assistant System
 
-This is a research-based virtual assistant web application built with **React (Vite + TypeScript)** and **FastAPI**, designed to generate culturally adaptive, role-appropriate 3D human avatars based on real-time webcam input.
+This is a research-based virtual assistant web application built with **React (Vite + TypeScript)** and **Flask**, designed to generate culturally adaptive, role-appropriate 3D human avatars based on real-time webcam input.
 
 It's part of an academic project on **digital companions that enhance user trust, cultural alignment, and personalization**.
 
@@ -13,7 +13,7 @@ It's part of an academic project on **digital companions that enhance user trust
 - 🧠 ML-driven avatar customization (gender & ethnicity prediction)
 - 🌍 Culturally adaptive 3D human avatars
 - 📷 Webcam-based detection and autofill
-- ⚙️ FastAPI backend for model inference & logic
+- ⚙️ Python backend for model inference & logic
 - 🧪 Research-grade design
 
 ---
